@@ -16,7 +16,6 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 25px 0px;
-  max-width: 414px;
   min-height: 100vh;
   gap: 12px;
   position: relative;
@@ -34,7 +33,7 @@ main {
 
 h1 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 2em;
   line-height: 33px;
   text-align: center;
   color: #ffffff;
@@ -49,12 +48,13 @@ h1 {
 
 label {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 1em;
   line-height: 22px;
   letter-spacing: -0.408px;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 4px;
   margin-left: 4px;
+  width: 100%;
 }
 
 input {
@@ -67,7 +67,7 @@ input {
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1em;
   line-height: 20px;
   letter-spacing: -0.24px;
   color: #ffffff;
@@ -88,7 +88,7 @@ input::placeholder {
   height: 68px;
   background: #d93856;
   font-weight: 900;
-  font-size: 17px;
+  font-size: 1em;
   line-height: 2px;
   color: #ffffff;
   border: none;
@@ -125,7 +125,7 @@ i {
 
   background: rgba(255, 255, 255, 0.14);
   font-weight: 900;
-  font-size: 17px;
+  font-size: 1em;
   line-height: 2px;
   color: #ffffff;
   gap: 12px;
@@ -176,4 +176,9 @@ a:hover::after {
 
 span {
   color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
